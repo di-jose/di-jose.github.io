@@ -6,6 +6,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
+    background-color: #FBE6D6;
 }
 
 .container {
@@ -17,16 +18,17 @@ body {
 /* Estilos para el encabezado */
 
 header {
-    background-color: #fff;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
+    background-color: #B0D6C9;
+    padding: 10px 0;
+    border-bottom: 1px solid #B0D6C9;
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     text-transform: uppercase;
     color: #2c3e50;
+    margin: 0px;
 }
 
 /* Estilos para la barra de navegación */
@@ -69,20 +71,27 @@ nav ul li a:hover {
 /* Estilos para el contenido principal */
 
 .hero-section {
-    background-image: url('https://via.placeholder.com/1200x600');
+    background-image: url("https://via.placeholder.com/1200x600");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 660px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .hero-section h1 {
     color: white;
-    font-size: 60px;
+    font-size: 90px;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+    margin: 0px;
+    height: 5px;
+    background-color: #6F8C74;
+    border: none;
 }
 
 .section-header {
@@ -107,6 +116,7 @@ nav ul li a:hover {
     margin: 0 20px 40px;
     text-align: center;
     transition: transform 0.2s ease-in-out;
+    box-shadow: 0px 4px 0px #6F8C74;
 }
 
 .product:hover {
@@ -137,3 +147,4 @@ footer {
     color: white;
     font-size: 14px;
     padding:
+}
