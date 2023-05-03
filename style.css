@@ -9,6 +9,11 @@ body {
     background-color: #FBE6D6;
 }
 
+.navegation {
+    position: relative;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -17,10 +22,14 @@ body {
 
 /* Estilos para el encabezado */
 
+/*
 header {
     background-color: #B0D6C9;
-    padding: 10px 0;
+    padding: 8px 0;
     border-bottom: 1px solid #B0D6C9;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .logo {
@@ -29,17 +38,20 @@ header {
     text-transform: uppercase;
     color: #2c3e50;
     margin: 0px;
+    
 }
+*/
 
 /* Estilos para la barra de navegación */
 
 nav {
     background-color: #2c3e50;
     height: 60px;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: fixed;
     z-index: 2;
 }
 
