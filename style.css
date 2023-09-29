@@ -86,7 +86,7 @@ nav ul li a:hover {
     background-image: url("https://via.placeholder.com/1200x600");
     background-size: cover;
     background-position: center;
-    height: 660px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: left;
